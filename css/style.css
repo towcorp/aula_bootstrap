@@ -1,15 +1,14 @@
-body{
-    font: 20px, arial, sans-serif ;
-
+body {
+    font: 20px, arial, sans-serif;
 }
+
 .navbar {
-    background-color: #EDBB99 ;
+    background-color: #EDBB99;
 }
 
 .quem-somos {
-    background-color:#85C1E9;
+    background-color: #85C1E9;
     color: #154360;
-
 }
 
 .margin {
@@ -20,15 +19,52 @@ body{
 .parceiros {
     background-color: #AED6F1;
     color: #154360;
-
 }
 
 #servicos {
-    background-color:#D6EAF8;
+    background-color: #D6EAF8;
     color: #154360;
 }
 
 .bg-footer {
-    background-color:#154360;
+    background-color: #dfdfdf;
     color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 25px;
+    border: 1px solid #CCC;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+form div+div {
+    margin-top: 20px;
+}
+
+input {
+    font: 16px sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 8px;
 }
